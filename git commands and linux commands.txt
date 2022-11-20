@@ -1,0 +1,18 @@
+LINUX COMMANDS
+dir(lists the objects in the directory)
+cd(changes the directory)
+mk dir(creates a directory or sub-directory)
+
+GIT COMMANDS
+git init <filename> (initializes/creates the repo)
+git status(shows the status of repo)
+git log(shows all commits)
+git rm -rf(deletes the file in the folder/repo)
+git reset <log address>(removes the changes made above the log address/commit)
+git add ("git add ." is staging the entire repo, "git add <filename>" is only for particular filename)(adds the file to the stage)
+git restore --staged <filename> (restoring the original from the stage)
+git stash(hides a file into another file)
+git stash pop(retrieves the hidden file)
+git stash clear(removes the hidden file)
+git remote add origin (remote - urls are involved, add - adding new url, origin - name for the repo)
+git remote -v (shows the urls attached to the folder)
