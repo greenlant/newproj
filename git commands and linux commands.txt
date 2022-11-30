@@ -16,3 +16,5 @@ git stash pop(retrieves the hidden file)
 git stash clear(removes the hidden file)
 git remote add origin (remote - urls are involved, add - adding new url, origin - name for the repo)
 git remote -v (shows the urls attached to the folder)
+git checkout <branch/commit name>(points the head towards the commit or branch)
+ 
