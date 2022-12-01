@@ -17,4 +17,6 @@ git stash clear(removes the hidden file)
 git remote add origin (remote - urls are involved, add - adding new url, origin - name for the repo)
 git remote -v (shows the urls attached to the folder)
 git checkout <branch/commit name>(points the head towards the commit or branch)
+git fetch upstream --all --prune(fetches all the changes including the deleted ones from the main repo to the forked repo)
+git push origin <branch name> -f(force push changes)
  
