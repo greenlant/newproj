@@ -19,4 +19,6 @@ git remote -v (shows the urls attached to the folder)
 git checkout <branch/commit name>(points the head towards the commit or branch)
 git fetch upstream --all --prune(fetches all the changes including the deleted ones from the main repo to the forked repo)
 git push origin <branch name> -f(force push changes)
+git rebase -i <log address> (merges all the commits above the log address into it)
+*git fetch is safer than git pull
  

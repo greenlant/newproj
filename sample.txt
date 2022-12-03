@@ -1,1 +1,3 @@
-A sample file to be used further. Please ignore.
+A sample file to be used further. Please ignore. Just using this file to know how to use git.
+
+Peace.
