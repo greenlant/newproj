@@ -20,5 +20,7 @@ git checkout <branch/commit name>(points the head towards the commit or branch)
 git fetch upstream --all --prune(fetches all the changes including the deleted ones from the main repo to the forked repo)
 git push origin <branch name> -f(force push changes)
 git rebase -i <log address> (merges all the commits above the log address into it)
+git reflog (shows all the commits made - which are even not visible in git log)
+git reset --hard <log address/reflog key> (hard resets everything above the particlar commit - mostly used for reverting deleted commits)
 *git fetch is safer than git pull
  
